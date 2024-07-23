@@ -1,0 +1,11 @@
+/* Keterangan wajib diisi */
+.wajib-diisi::after {
+  content: " *";
+  color: red;
+}
+
+/* Keteranga lainnya */
+.keterangan-lainnya::after {
+  content: " **";
+  color: red;
+}

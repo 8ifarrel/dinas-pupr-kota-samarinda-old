@@ -1,0 +1,107 @@
+:root {
+	--yellow: rgba(252, 183, 23, 1);
+	--blue: rgba(34, 52, 104, 1);
+	--grey: rgba(240, 240, 240, 1);
+	--red: red;
+
+	--yellow-70: rgba(252, 183, 23, 0.3);
+	--blue-18: rgba(34, 52, 104, 0.18);
+}
+
+/* Background color */
+
+.bg-yellow {
+	background-color: var(--yellow) !important;
+}
+
+.bg-blue {
+	background-color: var(--blue) !important;
+}
+
+.bg-grey {
+	background-color: var(--grey) !important;
+}
+
+.bg-yellow-70 {
+	background-color: var(--yellow-70) !important;
+}
+
+.bg-blue-18 {
+	background-color: var(--blue-18) !important;
+}
+
+/* Text color */
+
+.text-yellow {
+	color: var(--yellow) !important;
+}
+
+.text-blue {
+	color: var(--blue) !important;
+}
+
+.text-grey {
+	color: var(--grey) !important;
+}
+
+.text-red {
+	color: var(--red) !important;
+}
+
+/* Font */
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+small {
+	font-family: "Inter", sans-serif;
+}
+
+/* Font weight */
+
+.fw-medium {
+	font-weight: 500 !important;
+}
+
+.fw-extrabold {
+	font-weight: 800;
+}
+
+/* Font size */
+
+.fs-default {
+	font-size: 16px;
+}
+
+.fs-md {
+	font-size: 18px !important;
+}
+
+.fs-lg {
+	font-size: 36px;
+}
+
+.fs-xl {
+	font-size: 50px;
+}
+
+/* 16:9 wide image */
+
+.img-container {
+	width: 100%;
+	overflow: hidden;
+	margin: 0;
+	padding-top: 56.25%;
+	position: relative;
+}
+
+.wide-img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	transform: translate(-50%, -50%);
+}	
